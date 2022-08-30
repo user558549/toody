@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+.simple-todo {
+  width: 50%;
+  height: 100%;
+  color: white;
+  box-sizing: border-box;
+}
+h2 {
+  font-style: initial;
+  text-decoration: underline;
+}
+#todo-input {
+  width: 75%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+li {
+  font-size: 30px;
+  text-decoration: none;
+}
+.none {
+  display: none;
+}
